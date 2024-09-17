@@ -21,7 +21,7 @@ pipeline {
             }
             post {
                 always {
-                    junit 'target/surefire-reports/TEST-TemperatureConverterTest.xml'  // Capture test reports
+                    junit 'target/surefire-reports/*.xml'  // Capture test reports
                 }
             }
         }
