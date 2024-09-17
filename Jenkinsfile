@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/annagaom/TempConverter.git'
+                git 'https://github.com/annagaom/Refactor.git'
             }
         }
         stage('Build') {
